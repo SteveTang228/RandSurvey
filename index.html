@@ -2,16 +2,16 @@
 <html>
     <head>
         <script>
-            var fruits = ['http://www.google.com', 
-                          'http://www.youtube.com'
-                         ];
+            var SurveyList = ['http://www.google.com', 
+                              'http://www.youtube.com'
+                             ];
 
-            var num = getRandom(2);
+            var num = getRandom(SurveyList.length);
 
-            location.href=fruits[num];
+            location.href=SurveyList[num];
 
-            function getRandom(x){
-                return Math.floor(Math.random()*x);
+            function getRandom(x) { 
+                return Math.floor(Math.random() * x);
             };
         </script>
     </head>
