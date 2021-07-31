@@ -1,12 +1,15 @@
-<?php
-$arr = array(
-"0" => "http://www.google.com",
-"1" => "http://www.Facebook.com",
-"2" => "http://www.youtube.com",
-"3" => "http://www.yahoo.com.tw",
-);
+<!DOCTYPE html>
+<html>
+<body>
 
-$a = mt_rand(0,3);
-$url = $arr[$a];
-header( "Location: $url" );
-?>
+<h1>My First Web Page</h1>
+<p>My First Paragraph</p>
+
+<p id="demo"></p>
+
+<script>
+document.getElementById("demo").innerHTML = 5 + 6;
+</script>
+
+</body>
+</html>

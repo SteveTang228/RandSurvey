@@ -1,2 +1,20 @@
-<form action="index.php" method="post">
-README
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            var fruits = ['http://www.google.com', 
+                          'http://www.youtube.com'
+                         ];
+
+            var num = getRandom(2);
+
+            location.href=fruits[num];
+
+            function getRandom(x){
+                return Math.floor(Math.random()*x);
+            };
+        </script>
+    </head>
+    <body>
+    </body>
+</html>
